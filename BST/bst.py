@@ -25,7 +25,7 @@ class Node:
 			if root.right is None:
 				return (root.data)
 			else:
-				root.right.Largest()
+				root.Largest(root.right)
 
 	def secondLargest(self):
 		current = self		
